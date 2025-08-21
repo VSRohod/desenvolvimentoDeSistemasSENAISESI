@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // global e sobrescrevivel
+        var nomeVar = "Victor"
+
+        // global e não sobrescrevível
+        const nomeConst = "Victor"
+        //nomeConst = "Bruno"
+
+        // local e sobrescrevível
+        let nomeLet = "Victor"
+
+        console.log("Seja bem vindo "+nomeVar)
+        console.log(`Seja bem vindo ${nomeVar}`)
+
+        // mensagem
+        alert("Oi")
+        // pergunta
+        let perguntaDigitada = prompt("Digite o seu nome:")
+        console.log(perguntaDigitada)
+        // pergunta sim ou não
+        let pergunta = confirm("Hoje está top?")
+        console.log(pergunta)
+
+        // tipos primitivos
+        // "nome" - string (texto)
+        // 1 ano - int (numero inteiro)
+        // R$3.14 - float (numero quebrado)
+        // false - boolean (verdadeiro ou falso)
+        // 3,5,3,1 [] - array (vetor)
+        // {nome:Oi} - object (objeto, dicionario)
+    </script>
+</body>
+</html>
