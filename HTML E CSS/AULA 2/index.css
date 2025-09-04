@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(225, 225, 225);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header , footer{
+    width: 100%;
+    background-color: cadetblue;
+    /* margin / padding como funciona */
+    /* padding = 1 valor = todos os lados */
+    /* padding = 2 valores = y (topo, embaixo) , x (esquerda, direita) */
+    /* padding = 4 valores = topo , direito , embaixo, esquerda */
+    padding: 20px 0px;
+    text-align: center;
+}
+
+h2{
+    margin: 0px 20px;
+}
+
+main{
+    width: 80%;
+    background-color: rgb(209, 166, 239);
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#banner{
+    width: 80%;
+    margin: 20px 0px;
+    box-shadow: 6px 6px rgb(255, 119, 0);
+}
+
+div{
+    margin: 20px 0px;
+}
+
+.linksNoticia{
+    margin: 20px;
+    text-decoration: none;
+    background-color: rgb(255, 119, 0) ;
+    color: white;
+    padding: 10px;
+    box-shadow: 6px 6px rgb(255, 0, 212);
+}
