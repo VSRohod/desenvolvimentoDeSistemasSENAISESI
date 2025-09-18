@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: end;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+    margin: 0px 24px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#banner , #artigos{
+    width: 100%;
+    display: flex;
+}
+
+#bannerEsquerdo , #agenda{
+    width: 30%;
+}
+
+#bannerDireito, #servicos{
+    width: 70%;
+}
+
+#artigos h4{
+    color: white;
+    padding: 10px 0px;
+    background-color: #000000;
+}
+
+#artigos p, #artigos h5{
+    margin: 10px;
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #000000;
+    color: white;
+}
