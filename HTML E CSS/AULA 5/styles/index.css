@@ -1,0 +1,18 @@
+#banner{
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(../images/banner.jpg);
+    background-position: center ;
+
+}
+
+#bannerTexto{
+    background-color: var(--corSecundaria);
+    color: var(--textosBrancos);
+    padding: 10px;
+}
