@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+table{
+    width: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(228, 228, 228);
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    background-color: white;
+}
+
+th:hover{
+    background-color: rgb(235, 235, 235) ;
+    color: rgb(12, 88, 12);
+    transition: 0.5s;
+}
+
+td:hover{
+    background-color: rgb(235, 235, 235) ;
+    color: rgb(12, 53, 88);
+}
+
+th{
+    border: 1px solid black;
+    background-color: rgb(12, 88, 12);
+    color: white;
+    transition: 0.5s;
+
+}
+
+thead{
+    position: sticky;
+    top: -1px;
+}
