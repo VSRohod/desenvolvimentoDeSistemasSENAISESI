@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corPrimaria : rgb(6, 65, 203) ;
+    --branco : rgb(230, 230, 230) ; 
+    --preto : rgb(35, 35, 35) ;
+}
+
+body{
+    background-color: var(--branco);
+}
+
+header{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: var(--corPrimaria);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logoImg{
+    width: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--branco);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav, #logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+main{
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(206, 206, 206);
+}
+
+.paginaAtual{
+    background-color: var(--branco);
+    padding: 3px;
+    color: var(--corPrimaria);
+    border-radius: 5px;
+}
