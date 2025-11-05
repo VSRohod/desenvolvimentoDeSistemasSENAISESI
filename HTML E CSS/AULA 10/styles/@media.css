@@ -1,0 +1,21 @@
+#menuPc{
+    display: none;
+}
+
+#btnMenu{
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+
+#menuMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--primaria);
+}
+
+#menuMobile a:hover{
+    background-color: rgba(65, 65, 65, 0.474);
+}

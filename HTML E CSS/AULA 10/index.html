@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarShop</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width:500px)">
+</head>
+<body>
+    <header>
+        <!-- logo -->
+        <div id="logo">
+            <img src="images/icons/logo.svg" alt="">
+        </div>
+        <!-- menu botao -->
+        <button id="btnMenu" onclick="menu()" type="button">
+            <img src="images/icons/menu.svg" alt="">
+        </button>
+        <!-- menu pc -->
+        <nav id="menuPc">
+            <a href="index.html">Home</a>
+            <a href="#">Contato</a>
+            <a href="#">Quem somos</a>
+            <a href="#">Serviços</a>
+            <a href="#">Filiais</a>
+        </nav>
+    </header>
+    <nav id="menuMobile">
+       <a href="index.html">Home</a>
+       <a href="#">Contato</a>
+       <a href="#">Quem somos</a>
+       <a href="#">Serviços</a>
+       <a href="#">Filiais</a>
+   </nav>
+
+    <main>aaaa</main>
+
+    <script>
+        function menu(){
+           if (menuMobile.style.display == "flex"){
+                menuMobile.style.display = "none"
+           }else{
+                menuMobile.style.display = "flex"
+           }
+        }
+    </script>
+</body>
+</html>
